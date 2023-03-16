@@ -60,7 +60,7 @@ public class Person {
 
 If we were to run the code above, it would output the following:
 
-```plaintext
+```text
 1974-11-14
 ```
 
@@ -210,7 +210,7 @@ Since we are using the `parse()` method that takes in both the `String` and the
 `DateTimeFormatter` arguments, the above code will compile and return the same
 output as before:
 
-```plaintext
+```text
 1974-11-14
 ```
 
@@ -367,7 +367,7 @@ test it, we can feed it two hardcoded values where we know for sure the one is a
 valid date-time and the other is an invalid date-time. Here is the output from
 the above example:
 
-```plaintext
+```text
 09/30/2022 12:00:00 is valid! Storing in a LocalDateTime object...
 valid date time: 2022-09-30T12:00
 09/31/2022 12:00:00 is invalid.
